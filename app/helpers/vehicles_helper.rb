@@ -1,0 +1,3 @@
+module VehiclesHelper
+
+end
