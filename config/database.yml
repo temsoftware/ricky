@@ -5,6 +5,6 @@ development:
   database: spider
   pool: 5
   username: root
-  password: xavi3256
+  password: root
   host: localhost
 

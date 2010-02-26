@@ -8,7 +8,7 @@ body{
 }
 #fundo_pag_footer
 {
-	background-image:url(../images/bg_footer.gif);
+	background-image:url(../images/bg_footer.png);
 	background-repeat:no-repeat;
 	height:100px;
 	clear:both;
@@ -17,7 +17,7 @@ body{
 	left:49px;
 }
 #fundo_pag{
-  background-image:url(../images/bg_pag.gif);
+  background-image:url(../images/bg_pag.png);
   background-repeat:repeat-y;
 }
 #img_top{
@@ -252,6 +252,7 @@ body{
     left:30px;
     top:60px;
     position:absolute;
+    z-index:1;
 }
 .veiculo_listado_pag_list{
     background-color:#D0D0D0;
@@ -261,16 +262,17 @@ body{
     margin-left:5px;
     position:relative;
     margin-top:20px;
+    z-index:0;
 }
 .carro_descricao_pag_list{
-    float:right;
+    display:block;
     font-family:Verdana,Geneva,sans-serif;
-    text-align: center;
     font-size:13px;
     font-weight:bold;
     position:relative;
+    text-align:center;
     top:7px;
-    width:190px;
+    width:100%;
 }
 .carro_preco_pag_list{
     float:right;
@@ -282,6 +284,7 @@ body{
     position:absolute;
     top:175px;
     width:100%;
+    z-index:1;
 
 }
 .veiculo_saiba_mais_pag_list{
@@ -293,6 +296,7 @@ body{
     position:absolute;
     font-family:Verdana,Geneva,sans-serif;
     font-weight:bold;
+    z-index:1;
 }
 .veiculo_saiba_mais_pag_list a{
     color:#b9240e;
@@ -301,13 +305,13 @@ body{
     color:#b9240e;
 }
 .carro_sub_descricao_pag_list{
-    float:right;
     font-family:Verdana,Geneva,sans-serif;
     font-size:10px;
     position:absolute;
     text-align:center;
     top:160px;
     width:100%;
+    z-index:1;
 }
 .carro_links_pag_list{
     float:right;
@@ -319,6 +323,7 @@ body{
     text-decoration:underline;
     top:230px;
     width:100%;
+    z-index:1;
 }
 
 .vehicles_paginate{
@@ -446,7 +451,7 @@ body{
     width:798px;
 }
 #veiculo_short_description{
-    background:#FFFFFF url(../images/short_description.gif) no-repeat scroll center top;
+    background:#FFFFFF url(../images/short_description.png) no-repeat scroll center top;
     height:33px;
     left:65px;
     position:absolute;
