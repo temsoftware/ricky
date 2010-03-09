@@ -12,6 +12,6 @@ class UsersController < ApplicationController
     item.update.columns = [:name, :login, :active, :pass, :profile]
     item.create.columns = [:name, :login, :active, :pass, :profile]
 
-    item.actions.exclude :show
+    item.actions.exclude :show  
   end
 end
