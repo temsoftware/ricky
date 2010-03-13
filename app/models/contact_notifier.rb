@@ -1,15 +1,11 @@
 class ContactNotifier < ActionMailer::Base
 
-   validates_presence_of :email
-   validates_presence_of :nometo
-
-
-  def contact_notification(nome,email,telefone,msg)
-    @recipients = "#{nome} <#{email}>"
-    @from = "Eduardo Zaghi <eduardozaghi@gmail.com>"
+  def contact_notification(contact,msg)
+    @recipients = "Ricar Veiculos <eduardozaghi@gmail.com>"
+    #@from = "#{contact.name} <#{contact.email}>"
     #@from = "#{nome} <#{email}>"
-    @subject = "[Ricar Web Site] - Contato do Usuario"
-    @body = {:msg => msg,:nome => nome, :email => email, :telefone => telefone}
+    @subject = "[Ricar Veiculos Web Site] - Contato do Usuario"
+    @body = {:msg => msg,:nome => contact.name, :email => contact.email, :telefone => contact.tel}
   end
 
 

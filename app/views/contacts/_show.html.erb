@@ -1,0 +1,11 @@
+<img src="../images/<%=flash[:status]%>.png"> <%=flash[:notice]%>
+<p>
+  <span style ="display: block; margin-left: 10px; margin-top: 5px;">
+    <ul>
+      <% for error in @costumer.errors.full_messages %>
+        <li><%=error%></li><br>
+      <%end%>
+    </ul><br>
+  </span>
+</p>
+

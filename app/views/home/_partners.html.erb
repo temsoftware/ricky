@@ -4,7 +4,9 @@
     </div>
     <div id="parceiros_medium" class="menu_direita_medium">
         <% for item in @partners %>
-            <img src="<%= item.image%>" class="menu_direita_imgs" alt="<%= item.name %>" ><br/>
+          <% link_to item.site do %>
+            <%= image_tag item.data.url() , :class => "menu_direita_imgs" %>
+          <% end %><br/>
         <% end %>
     </div>
     <div id="parceiros_footter" class="menu_direita_footter">

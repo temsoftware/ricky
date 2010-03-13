@@ -26,7 +26,8 @@
       </div>
 
       <div id="endereco_direita">
-        <%= lightbox_image_tag @selected_store.data.url(:original), @selected_store.data.url(:original) , {:class=>"images"}, :title => "#{@selected_store.street}, #{@selected_store.number} - #{@selected_store.neighborhood} - #{@selected_store.city} - #{@selected_store.state}" %>
+        <%= @map.to_html %>
+        <%= @map.div(:width => 425, :height => 254) %>
       </div>
 
     </div>

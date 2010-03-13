@@ -52,8 +52,8 @@ Rails::Initializer.run do |config|
     :address => "smtp.gmail.com",
     :port => 587,
     :authentication => :plain,
-    :user_name => "seuemail@gmail.com",
-    :password => "suasenha"
+    :user_name => "eduardozaghi@gmail.com",
+    :password => "exaltasamba2007"
   }
 
 end

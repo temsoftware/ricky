@@ -1,946 +1,965 @@
-* {
-  margin: 0;
-	padding: 0;
-}
 
-body{
-	background-color:#E6E7E8;
+body {
+background-color:#E6E7E8;
+_text-align:center;
 }
-#fundo_pag_footer
-{
-	background-image:url(../images/bg_footer.png);
-	background-repeat:no-repeat;
-	height:100px;
-	clear:both;
-	width:1000px;
-	position:relative;
-	left:49px;
+#fundo_pag_footer {
+background-image:url(../images/bg_footer.png);
+background-repeat:no-repeat;
+clear:both;
+height:100px;
+left:-71px;
+position:relative;
+width:941px;
 }
-#fundo_pag{
-  background-image:url(../images/bg_pag.png);
-  background-repeat:repeat-y;
+#fundo_pag {
+background-image:url(../images/bg_pag.png);
+background-repeat:repeat-y;
+margin-left:auto;
+margin-right:auto;
+width:1024px;
+_text-align:left;
+margin-top:-10px;
 }
-#img_top{
-	position:relative;
+#img_top {
+position:relative;
 }
-#menu_top{
-	background:black none repeat scroll 0 0;
-	border-bottom:2px none;
-	height:30px;
-	left:120px;
-	position:absolute;
-	width:800px;
-	border-bottom-width: 3px;
-	border-top-width: 0px;
-	border-right-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color:#9e0404;
-	border-style: solid;
-	font-weight:bold;
-	_top:180px;
+#menu_top {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:black none repeat scroll 0 0;
+border-bottom:3px solid #9E0404;
+border-style:solid;
+border-width:0 0 3px;
+display:block;
+font-weight:bold;
+height:30px;
+left:120px;
+position:relative;
+width:800px;
 }
-
-#menu_top ul{
-	list-style-type: none;
-	padding-left:20px;
-	padding-top:5px;
-
+#menu_top ul {
+list-style-type:none;
+padding-left:20px;
+padding-top:5px;
 }
-#menu_top ul li{
-	float: left;
-	padding-right:30px;
-	padding-top:2px;
-	color:#FFF;
-	font-family:Verdana, Geneva, sans-serif;
+#menu_top ul li {
+color:#FFFFFF;
+float:left;
+font-family:Verdana,Geneva,sans-serif;
+padding-right:30px;
+padding-top:2px;
 }
-
-#menu_top a{
-    color: #FFFFFF;
-    text-decoration: none;
+#menu_top a {
+color:#FFFFFF;
+text-decoration:none;
 }
-#menu_top a:visited{
-    color: #FFFFFF;
-    text-decoration: none;
+#menu_top a:visited {
+color:#FFFFFF;
+text-decoration:none;
 }
-
 #menu_top a:hover {
-    background:#9e0404 none repeat scroll 0 0;
-    border-color:#9e0404;
-    border-style:solid;
-    border-top:10px solid #9e0404;
-    border-bottom:5px solid #9e0404;
-    border-right-width: 0px;
-	border-left-width: 0px;
-    color: #FFFFFF;
-    text-decoration: none;
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#9E0404 none repeat scroll 0 0;
+border-color:#9E0404;
+border-style:solid;
+border-width:10px 0 5px;
+color:#FFFFFF;
+text-decoration:none;
 }
-
 #menu_top a:active {
-    background:#9e0404 none repeat scroll 0 0;
-    border-color:#9e0404;
-    border-style:solid;
-    border-top:10px solid #9e0404;
-    border-bottom:5px solid #9e0404;
-    border-right-width: 0px;
-	border-left-width: 0px;
-    color: #FFFFFF;
-    text-decoration: none;
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#9E0404 none repeat scroll 0 0;
+border-color:#9E0404;
+border-style:solid;
+border-width:10px 0 5px;
+color:#FFFFFF;
+text-decoration:none;
 }
-
-#busca{
-    float:left;
-	position:absolute;
-	height:250px;
-	width:260px;
-	top: 20px;}
-
-#busca span{
-    color: #000000;
-	font-family:Verdana, Geneva, sans-serif;
-	margin-left:40px;
+#busca {
+float:left;
+height:250px;
+position:absolute;
+top:20px;
+width:260px;
 }
-
-
-.banner_site_home{
-	background-image:url(../images/banner_site.jpg);
-	background-repeat:no-repeat;
-	height:237px;
-	left:120px;
-	position:relative;
-	top:33px;
-	width:800px;
+#busca span {
+color:#000000;
+font-family:Verdana,Geneva,sans-serif;
+margin-left:40px;
 }
-.banner_site_vehicle_list{
-	background-image:url(../images/banner_site_2.jpg);
-	background-repeat:no-repeat;
-	height:237px;
-	left:120px;
-	position:relative;
-	top:33px;
-	width:800px;
+.banner_site_home {
+background-image:url(../images/banner_site.jpg);
+background-repeat:no-repeat;
+height:237px;
+left:120px;
+position:relative;
+width:800px;
 }
-#conteudo{
-    position:relative;
-    top:10px;
-    width:920px;
+.banner_site_vehicle_list {
+background-image:url(../images/banner_site_2.jpg);
+background-repeat:no-repeat;
+height:237px;
+left:120px;
+position:relative;
+top:33px;
+width:800px;
 }
-#vehicles{
-    float:left;
-    left:120px;
-    position:relative;
-    top:5px;
-    width:340px;
+#conteudo {
+left:120px;
+position:relative;
+top:10px;
+width:920px;
 }
-#vehicles_list{
-    float:left;
-    left:120px;
-    position:relative;
-    top:5px;
-    width:798px;
+#vehicles {
+float:left;
+position:relative;
+top:5px;
+width:340px;
 }
-#moto{
-    float:left;
-    left:115px;
-    position:relative;
-    top:5px;
-    width:340px;
+#vehicles_list {
+float:left;
+position:relative;
+top:5px;
+width:798px;
 }
-#menu_direita{
-
-    top:5px;
-    float:right;
-    position:relative;
-    margin-top:5px;
-
+#moto {
+float:left;
+position:relative;
+top:5px;
+width:340px;
 }
-#parceiros{
-    position:relative;
-    width:115px;
+#menu_direita {
+float:left;
+margin-top:5px;
+position:relative;
+top:5px;
 }
-#enderecos{
-    position:relative;
-    width:115px;
-    top:15px;
+#parceiros {
+position:relative;
+width:115px;
 }
-.veiculo_foto{
-    float:left;
-    left:5px;
-    top:5px;
-    position:relative;
+#enderecos {
+position:relative;
+top:15px;
+width:115px;
 }
-.veiculo_listado{
-    background-color:#D0D0D0;
-    height:109px;
-    width:327px;
-    float:left;
-    margin-left:5px;
-    position:relative;
-    margin-top:5px;
+.veiculo_foto {
+float:left;
+left:5px;
+position:relative;
+top:5px;
 }
-.carro_descricao{
-    float:right;
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:13px;
-    font-weight:bold;
-    position:relative;
-    top:7px;
-    width:190px;
+.veiculo_listado {
+background-color:#D0D0D0;
+float:left;
+height:109px;
+margin-left:5px;
+margin-top:5px;
+position:relative;
+width:327px;
 }
-.carro_preco{
-    color:#b9240e;
-    font-size:16px;
-    position:relative;
-    top:8px;
+.veiculo_listado a {
+color:black;
+font-family:Verdana,Geneva,sans-serif;
+font-size:13px;
+font-weight:bold;
 }
-.veiculo_saiba_mais{
-    color:#b9240e;
-    float:right;
-    font-size:10px;
-    right:7px;
-    top:90px;
-    position:absolute;
-    font-family:Verdana,Geneva,sans-serif;
-    font-weight:bold;
+.veiculo_listado a:hover {
+color:black;
+font-family:Verdana,Geneva,sans-serif;
+font-size:13px;
+font-weight:bold;
 }
-.veiculo_saiba_mais a{
-    color:#b9240e;
+.carro_descricao {
+float:right;
+font-family:Verdana,Geneva,sans-serif;
+font-size:13px;
+font-weight:bold;
+position:relative;
+top:7px;
+width:190px;
 }
-.veiculo_saiba_mais a:hover{
-    color:#b9240e;
+.carro_preco {
+color:#B9240E;
+font-size:16px;
+position:relative;
+top:8px;
 }
-.menu_direita_top{
-    background-attachment:scroll;
-    background-color:#D0D0D0;
-    background-image:none;
-    background-position:0 0;
-    background-repeat:repeat;
-    padding-left:5px;
-    padding-top:3px;
-    position:relative;
+.veiculo_saiba_mais {
+color:#B9240E;
+float:right;
+font-family:Verdana,Geneva,sans-serif;
+font-size:10px;
+font-weight:bold;
+position:absolute;
+right:7px;
+top:90px;
 }
-.menu_direita_footter{
-    border-bottom-color:#D0D0D0;
-    border-bottom-style:solid;
-    border-bottom-width:5px;
+.veiculo_saiba_mais a {
+color:#B9240E;
 }
-.menu_direita_medium{
-    margin-bottom:5px;
-    margin-left:5px;
-    margin-top:5px;
-    width:115px;
+.veiculo_saiba_mais a:hover {
+color:#B9240E;
 }
-.menu_direita_label{
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:13px;
-    font-weight:bold;
+.menu_direita_top {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#D0D0D0 none repeat scroll 0 0;
+padding-left:5px;
+padding-top:3px;
+position:relative;
 }
-.menu_direita_imgs{
-    margin-bottom:4px;
-    margin-top:4px;
-
+.menu_direita_footter {
+border-bottom:5px solid #D0D0D0;
 }
-.menu_direita_element{
-    margin-bottom:15px;
+.menu_direita_medium {
+margin-bottom:5px;
+margin-left:5px;
+margin-top:5px;
+width:115px;
 }
-.label_loja{
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:11px;
+.menu_direita_label {
+font-family:Verdana,Geneva,sans-serif;
+font-size:13px;
+font-weight:bold;
 }
-/*Pagina lista de Vehicles INICIO*/
-.veiculo_foto_pag_list{
-    float:left;
-    left:30px;
-    top:60px;
-    position:absolute;
-    z-index:1;
+.menu_direita_imgs {
+margin-bottom:4px;
+margin-top:4px;
 }
-.veiculo_listado_pag_list{
-    background-color:#D0D0D0;
-    height:311px;
-    width:189px;
-    float:left;
-    margin-left:5px;
-    position:relative;
-    margin-top:20px;
-    z-index:0;
+.menu_direita_element {
+margin-bottom:15px;
 }
-.carro_descricao_pag_list{
-    display:block;
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:13px;
-    font-weight:bold;
-    position:relative;
-    text-align:center;
-    top:7px;
-    width:100%;
+.label_loja {
+font-family:Verdana,Geneva,sans-serif;
+font-size:11px;
 }
-.carro_preco_pag_list{
-    float:right;
-    font-family:Verdana,Geneva,sans-serif;
-    text-align: center;
-    font-weight:bold;
-    color:#b9240e;
-    font-size:16px;
-    position:absolute;
-    top:175px;
-    width:100%;
-    z-index:1;
-
+.veiculo_foto_pag_list {
+float:left;
+left:30px;
+position:absolute;
+top:60px;
+z-index:1;
 }
-.veiculo_saiba_mais_pag_list{
-    color:#b9240e;
-    float:right;
-    font-size:10px;
-    right:7px;
-    top:285px;
-    position:absolute;
-    font-family:Verdana,Geneva,sans-serif;
-    font-weight:bold;
-    z-index:1;
+.veiculo_listado_pag_list {
+background-color:#D0D0D0;
+float:left;
+height:311px;
+margin-left:5px;
+margin-top:20px;
+position:relative;
+width:189px;
+z-index:0;
 }
-.veiculo_saiba_mais_pag_list a{
-    color:#b9240e;
+.veiculo_listado_pag_list a {
+color:black;
+font-family:Verdana,Geneva,sans-serif;
+font-size:13px;
+font-weight:bold;
+text-align:center;
 }
-.veiculo_saiba_mais_pag_list a:hover{
-    color:#b9240e;
+.veiculo_listado_pag_list a:hover {
+color:black;
+font-family:Verdana,Geneva,sans-serif;
+font-size:13px;
+font-weight:bold;
+text-align:center;
 }
-.carro_sub_descricao_pag_list{
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:10px;
-    position:absolute;
-    text-align:center;
-    top:160px;
-    width:100%;
-    z-index:1;
+.carro_descricao_pag_list {
+display:block;
+font-family:Verdana,Geneva,sans-serif;
+font-size:13px;
+font-weight:bold;
+position:relative;
+text-align:center;
+top:7px;
+width:100%;
 }
-.carro_links_pag_list{
-    float:right;
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:10px;
-    padding-left:15px;
-    position:absolute;
-    text-align:left;
-    text-decoration:underline;
-    top:230px;
-    width:100%;
-    z-index:1;
+.carro_preco_pag_list {
+color:#B9240E;
+float:right;
+font-family:Verdana,Geneva,sans-serif;
+font-size:16px;
+font-weight:bold;
+position:absolute;
+text-align:center;
+top:175px;
+width:100%;
+z-index:1;
 }
-
-.vehicles_paginate{
-    float:right;
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:12px;
-    padding-left:15px;
-    position:absolute;
-    text-align:left;
-    text-decoration:underline;
-    top:0;
-    width:100%;
+.veiculo_saiba_mais_pag_list {
+color:#B9240E;
+float:right;
+font-family:Verdana,Geneva,sans-serif;
+font-size:10px;
+font-weight:bold;
+position:absolute;
+right:7px;
+top:285px;
+z-index:1;
 }
-.vehicles_paginate a{
-
+.veiculo_saiba_mais_pag_list a {
+color:#B9240E;
 }
-.vehicles_paginate a:hover{
-    color: #9e0404;
+.veiculo_saiba_mais_pag_list a:hover {
+color:#B9240E;
 }
-/*Pagina lista de Vehicles FIM*/
-
-/*Pagina Contatos */
-#contato_form{
-    background:#D1CFD0 none repeat scroll 0 0;
-    height:313px;
-    position:relative;
-    width:430px;
-    float:left;
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:10px;
+.carro_sub_descricao_pag_list {
+font-family:Verdana,Geneva,sans-serif;
+font-size:10px;
+position:absolute;
+text-align:center;
+top:160px;
+width:100%;
+z-index:1;
 }
-#contato_lojas_info{
-    background:#D1CFD0 none repeat scroll 0 0;
-    height:313px;
-    position:relative;
-    width:350px;
-    float:right;
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:10px;
+.carro_links_pag_list {
+float:right;
+font-family:Verdana,Geneva,sans-serif;
+font-size:10px;
+padding-left:15px;
+position:absolute;
+text-align:left;
+text-decoration:underline;
+top:230px;
+width:100%;
+z-index:1;
 }
-#contato_info_form{
-    position:absolute;
-    top:30px;
-    left:5px;
+.vehicles_paginate {
+float:right;
+font-family:Verdana,Geneva,sans-serif;
+font-size:12px;
+padding-left:15px;
+position:absolute;
+text-align:left;
+text-decoration:underline;
+top:0;
+width:100%;
 }
-.contato_info_label{
-    position:relative;
-    top:10px;
-    left:15px;
-    font-style:italic;
-    font-size:10px;
+.vehicles_paginate a {
 }
-.form_info_txt_nome, .form_info_txt_tel, .form_info_txt_email, .form_info_txt_msg{
-    position:absolute;
-    left:70px;
+.vehicles_paginate a:hover {
+color:#9E0404;
 }
-.form_info_label_nome, .form_info_label_tel, .form_info_label_email, .form_info_label_msg{
-    position:absolute;
-    text-align:right;
-    width:60px;
+#contato_form {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#D1CFD0 none repeat scroll 0 0;
+float:left;
+font-family:Verdana,Geneva,sans-serif;
+font-size:10px;
+height:313px;
+position:relative;
+width:430px;
 }
-.form_info_label_news{
-    position:absolute;
-    width:380px;
-    left:20px;
-    top:230px;
+#contato_lojas_info {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#D1CFD0 none repeat scroll 0 0;
+float:right;
+font-family:Verdana,Geneva,sans-serif;
+font-size:10px;
+height:313px;
+position:relative;
+width:350px;
 }
-.form_info_check_news{
-    position:absolute;
-    top:230px;
-    left:0px;
+#contato_info_form {
+left:5px;
+position:absolute;
+top:30px;
+}
+.contato_info_label {
+font-size:10px;
+font-style:italic;
+left:15px;
+position:relative;
+top:10px;
+}
+.form_info_txt_nome, .form_info_txt_tel, .form_info_txt_email, .form_info_txt_msg {
+left:70px;
+position:absolute;
+}
+.form_info_label_nome, .form_info_label_tel, .form_info_label_email, .form_info_label_msg {
+position:absolute;
+text-align:right;
+width:60px;
+}
+.form_info_label_news {
+left:20px;
+position:absolute;
+top:230px;
+width:380px;
+}
+.form_info_check_news {
+left:0;
+position:absolute;
+top:230px;
 }
 .form_info_botao {
-    background-color:#752D2E;
-    color:#FFFFFF;
-    font-family:Arial,Helvetica,sans-serif;
-    font-weight:bold;
-    left:175px;
-    position:absolute;
-    top:250px;
-	}
-.label_end_tel{
-    font-family:Arial,Helvetica,sans-serif;
-    font-weight:bold;
-    font-size:15px;
-    text-decoration:underline;
-    position:relative;
-    top:10px;
-    left:20px;
+background-color:#752D2E;
+color:#FFFFFF;
+font-family:Arial,Helvetica,sans-serif;
+font-weight:bold;
+left:175px;
+position:absolute;
+top:250px;
 }
-.contato_lojas{
-    position:relative;
-    top:20px;
-    left:20px;
+.label_end_tel {
+font-family:Arial,Helvetica,sans-serif;
+font-size:15px;
+font-weight:bold;
+left:20px;
+position:relative;
+text-decoration:underline;
+top:10px;
 }
-.contato_loja_titulo{
-    font-family:Arial,Helvetica,sans-serif;
-    font-weight:bold;
-    font-size:12px;
+.contato_lojas {
+left:20px;
+position:relative;
+top:20px;
 }
-.contatos_loja_end{
-    font-family:Arial,Helvetica,sans-serif;
-    font-size:11px;
+.contato_loja_titulo {
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+font-weight:bold;
 }
-.contatos_loja_tel_label{
-    font-family:Arial,Helvetica,sans-serif;
-    font-size:11px;
-    font-weight:bold;
+.contatos_loja_end {
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
 }
-/*Pagina Conatos FIM*/
-
-/*Pagina Veiculo Detakhado*/
-.label_detalhe_veiculo{
-    color:#9E0404;
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:15px;
-    font-weight:bold;
-    position:relative;
-    text-align:center;
+.contatos_loja_tel_label {
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+font-weight:bold;
 }
-#veiculo_fotos_dados{
-    background:#D1CFD0 none repeat scroll 0 0;
-    height:184px;
-    margin-top:5px;
-    width:798px;
+.label_detalhe_veiculo {
+color:#9E0404;
+font-family:Verdana,Geneva,sans-serif;
+font-size:15px;
+font-weight:bold;
+position:relative;
+text-align:center;
 }
-#veiculo_short_description{
-    background:#FFFFFF url(../images/short_description.png) no-repeat scroll center top;
-    height:33px;
-    left:65px;
-    position:absolute;
-    top:160px;
-    width:684px;
+#veiculo_fotos_dados {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#D1CFD0 none repeat scroll 0 0;
+height:184px;
+margin-top:5px;
+width:798px;
 }
-.text_short_description{
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:10px;
-    font-weight:bold;
-    left:13px;
-    position:absolute;
-    top:7px;
+#veiculo_short_description {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FFFFFF url(../images/short_description.png) no-repeat scroll center top;
+height:33px;
+left:65px;
+position:absolute;
+top:160px;
+width:684px;
 }
-.text_short_description ul{
-	list-style-type: none;
+.text_short_description {
+font-family:Verdana,Geneva,sans-serif;
+font-size:10px;
+font-weight:bold;
+left:13px;
+position:absolute;
+top:-2px;
 }
-.text_short_description ul li{
-	float: left;
-	padding-right:20px;
-	padding-top:2px;
+.text_short_description ul {
+list-style-type:none;
 }
-.veiculos_fotos{
-    height:500px;
-    left:10px;
-    position:absolute;
-    top:65px;
-    width:798px;
+.text_short_description ul li {
+float:left;
+padding-right:20px;
+padding-top:2px;
 }
-.veiculos_fotos ul{
-    list-style-type: none;
+.veiculos_fotos {
+height:110px;
+left:-20px;
+overflow:hidden;
+position:absolute;
+top:45px;
+width:818px;
 }
-.veiculos_fotos ul li{
-    float:left;
-    padding-right:5px;
+.veiculos_fotos ul {
+list-style-type:none;
 }
-.veiculo_detalhe_titulo{
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:14px;
-    font-weight:bold;
-    left:13px;
-    position:absolute;
-    margin-top:10px;
+.veiculos_fotos ul li {
+float:left;
+padding-right:5px;
+padding-bottom:10px;
 }
-.veiculo_detalhe_preco{
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:18px;
-    font-weight:bold;
-    left:640px;
-    margin-top:10px;
-    position:absolute;
-    color:#9E0404;
+.veiculo_detalhe_titulo {
+font-family:Verdana,Geneva,sans-serif;
+font-size:14px;
+font-weight:bold;
+left:13px;
+margin-top:10px;
+position:absolute;
 }
-.veiculo_detalhado_info_esquerda{
-    float:left;
-    height:338px;
-    position:relative;
-    top:5px;
-    width:375px;
+.veiculo_detalhe_preco {
+color:#9E0404;
+font-family:Verdana,Geneva,sans-serif;
+font-size:18px;
+font-weight:bold;
+left:640px;
+margin-top:10px;
+position:absolute;
 }
-.veiculo_detalhado_info_direita{
-    float:left;
-    height:358px;
-    position:relative;
-    top:5px;
-    width:423px;
+.veiculo_detalhado_info_esquerda {
+float:left;
+height:338px;
+position:relative;
+top:5px;
+width:375px;
 }
-.veiculo_detalhe_opcionais_titulo{
-    left:0;
-    position:absolute;
-    top:10px;
+.veiculo_detalhado_info_direita {
+float:left;
+height:358px;
+position:relative;
+top:5px;
+width:423px;
 }
-.veiculo_detalhe_opcionais_conteudo{
-    left:0;
-    position:absolute;
-    top:35px;
+.veiculo_detalhe_opcionais_titulo {
+left:0;
+position:absolute;
+top:10px;
 }
-.opcionais_titulo{
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:14px;
-    font-weight:bold;
+.veiculo_detalhe_opcionais_conteudo {
+left:0;
+position:absolute;
+top:35px;
 }
-.opcionais_conteudo{
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:10px;
+.opcionais_titulo {
+font-family:Verdana,Geneva,sans-serif;
+font-size:14px;
+font-weight:bold;
 }
-
-.veiculo_detalhe_observacoes_titulo{
-    left:0;
-    position:absolute;
-    top:60px;
+.opcionais_conteudo {
+font-family:Verdana,Geneva,sans-serif;
+font-size:10px;
 }
-
-.veiculo_detalhe_observacoes_conteudo{
-    left:0;
-    position:absolute;
-    top:80px;
+.veiculo_detalhe_observacoes_titulo {
+left:0;
+position:absolute;
+top:60px;
 }
-#veiculo_detalhe_botoes{
-    position:absolute;
-    top:110px;
+.veiculo_detalhe_observacoes_conteudo {
+left:0;
+position:absolute;
+top:80px;
 }
-#veiculo_detalhe_botoes ul{
-    list-style-type: none;
+#veiculo_detalhe_botoes {
+position:absolute;
+top:110px;
+left:-40;
 }
-#veiculo_detalhe_botoes ul li{
-    float:left;
-    padding-right:1px;
+#veiculo_detalhe_botoes ul {
+list-style-type:none;
 }
-#veiculo_detalhe_loja_telefone{
-    position:absolute;
-    top:145px;
+#veiculo_detalhe_botoes ul li {
+float:left;
+padding-right:1px;
 }
-#veiculo_detalhado_contatos{
-    position:absolute;
-    top:10px;
-    left:5px;
+#veiculo_detalhe_loja_telefone {
+position:absolute;
+top:155px;
 }
-#veiculo_detalhado_contatos_obs{
-    position:absolute;
-    top:30px;
-    left:5px;
+#veiculo_detalhado_contatos {
+left:5px;
+position:absolute;
+top:10px;
 }
-#veiculo_detalhado_form{
-    position:absolute;
-    top:60px;
-    left:5px;
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:10px;
+#veiculo_detalhado_contatos_obs {
+left:5px;
+position:absolute;
+top:30px;
 }
-.form_txt_nome, .form_txt_tel, .form_txt_email, .form_txt_msg{
-    position:absolute;
-    left:70px;
+#veiculo_detalhado_form {
+font-family:Verdana,Geneva,sans-serif;
+font-size:10px;
+left:5px;
+position:absolute;
+top:60px;
 }
-.form_label_nome, .form_label_tel, .form_label_email, .form_label_msg{
-    position:absolute;
-    text-align:right;
-    width:60px;
+.form_txt_nome, .form_txt_tel, .form_txt_email, .form_txt_msg {
+left:70px;
+position:absolute;
 }
-.form_label_news{
-    position:absolute;
-    width:380px;
-    left:20px;
-    top:230px;
+.form_label_nome, .form_label_tel, .form_label_email, .form_label_msg {
+position:absolute;
+text-align:right;
+width:60px;
 }
-.form_check_news{
-    position:absolute;
-    top:230px;
-    left:0px;
+.form_label_news {
+left:20px;
+position:absolute;
+top:230px;
+width:380px;
+}
+.form_check_news {
+left:0;
+position:absolute;
+top:230px;
 }
 .form_botao {
-    background-color:#752D2E;
-    color:#FFFFFF;
-    font-family:Arial,Helvetica,sans-serif;
-    font-weight:bold;
-    left:175px;
-    position:absolute;
-    top:260px;
-	}
-/*Pagina Veiculo Detalhado FIM*/
-
-/*Pagina Endereços*/
-
-#endereco_esquerda{
-    background:#D1CFD0 none repeat scroll 0 0;
-    height:317px;
-    position:relative;
-    width:333px;
-    float:left;
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:10px;
+background-color:#752D2E;
+color:#FFFFFF;
+font-family:Arial,Helvetica,sans-serif;
+font-weight:bold;
+left:175px;
+position:absolute;
+top:260px;
 }
-
-#endereco_direita{
-    background:#D1CFD0 none repeat scroll 0 0;
-    border:6px solid #606060;
-    float:right;
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:10px;
-    position:relative;
-    width:425px;
+#endereco_esquerda {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#D1CFD0 none repeat scroll 0 0;
+float:left;
+font-family:Verdana,Geneva,sans-serif;
+font-size:10px;
+height:317px;
+position:relative;
+width:333px;
 }
-
-#endereco_esquerda a{
-
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:10px;
-    color:#191919;
+#endereco_direita {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#D1CFD0 none repeat scroll 0 0;
+border:6px solid #606060;
+float:right;
+font-family:Verdana,Geneva,sans-serif;
+font-size:10px;
+position:relative;
+width:425px;
 }
-
-#endereco_esquerda a:hover{
-    /*background:#606060 none repeat scroll 0 0;*/
-    font-family:Verdana,Geneva,sans-serif;
-    font-size:10px;
-    color:#9E0404;
-    text-decoration:none;
-
+#endereco_esquerda a {
+color:#191919;
+font-family:Verdana,Geneva,sans-serif;
+font-size:10px;
 }
-/*Pagina Endereços FIM*/
-
-/*MAH - SISCOG*/
-
+#endereco_esquerda a:hover {
+color:#9E0404;
+font-family:Verdana,Geneva,sans-serif;
+font-size:10px;
+text-decoration:none;
+}
 .bg_siscog {
-  font:76% Verdana,Tahoma,Arial,sans-serif;
-  background:#ffffff url(../images/bg.gif) top center repeat-y;
-  color:#404040;
-  line-height:1.2em;
-  margin:0 auto;
-  padding:0;
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FFFFFF url(../images/bg.gif) repeat-y scroll center top;
+color:#404040;
+font-family:Verdana,Tahoma,Arial,sans-serif;
+font-size:76%;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:1.2em;
+margin:0 auto;
+padding:0;
 }
-
 a {
-  text-decoration:none;
-  color:#808080;
-  font-weight:bold;
+color:#808080;
+font-weight:bold;
+text-decoration:none;
 }
-
 a:hover {
-  text-decoration:underline;
-  color:#800000;
+color:#800000;
+text-decoration:underline;
 }
-a img{border:0;}
-p{margin:0 0 18px 10px;}
-/*
-	ul,ol,dl{font-size:0.9em; margin:2px 0 16px 35px;}
-	ul ul,ol ol{margin:4px 0 4px 35px;}
-*/
-h1{
-    font-size:4.2em;
-    letter-spacing:-5px;
-    margin:0 0 30px 25px;
-    color:#4088b8;
+a img {
+border:0 none;
 }
-
-h1 a{text-transform:none; color:#4088b8;}
-
-h2{
-    font-size:1.4em;
-    color:#4088b8;
-    border-bottom:4px solid #dadada;
-    padding:0 2px 2px 5px;
-    margin:0 0 20px 0;
-    letter-spacing:-1px;
+p {
+margin:0 0 18px 10px;
 }
-
-h3{
-    font-size:1.2em;
-    font-weight:bold;
-    color:#808080;
-    margin:10px 0 8px 0;
-    padding:1px 2px 2px 3px;
+h1 {
+color:#4088B8;
+font-size:4.2em;
+letter-spacing:-5px;
+margin:0 0 30px 25px;
 }
-
-blockquote{
-    font-size:0.9em;
-    border:1px solid #dadada;
-    margin:20px 10px;
-    padding:8px;
+h1 a {
+color:#4088B8;
+text-transform:none;
 }
-
-/******** Main wrap ********/
-#wrap{
-    color:#404040;
-    width:760px;
-    /*margin:10px auto;*/
-    margin:15px 0px 20px 220px;
-    padding:0;
+h2 {
+border-bottom:4px solid #DADADA;
+color:#4088B8;
+font-size:1.4em;
+letter-spacing:-1px;
+margin:0 0 20px;
+padding:0 2px 2px 5px;
 }
-
-#header{margin:0;}
-
-#toplinks{text-align:right; padding:5px 2px 2px 3px;}
-
-#slogan{
-    font-size:1.5em;
-    color:#808080;
-    font-weight:bold;
-    letter-spacing:-1px;
-    margin:15px 0px 20px 35px;
-    line-height:1.2em;
+h3 {
+color:#808080;
+font-size:1.2em;
+font-weight:bold;
+margin:10px 0 8px;
+padding:1px 2px 2px 3px;
 }
-
-
-#sidebar{
-    float:left;
-    width:180px;
-    margin:0 0 5px 0;
-    padding:1px 0 0 0;
+blockquote {
+border:1px solid #DADADA;
+font-size:0.9em;
+margin:20px 10px;
+padding:8px;
 }
-
-#sidebar ul{
-    list-style:none;
-    font-size:0.9em;
-    padding:4 0 0px 15px;
-    margin-bottom:20px;
-    margin-top:0px;
+#wrap {
+color:#404040;
+margin:15px 0 20px 220px;
+padding:0;
+width:760px;
 }
-
-#sidebar li{
-    list-style:none;
-    margin:0 0 4px 0;
-    padding:0;
+#header {
+margin:0;
 }
-
-#sidebar li a{
-  font-size:1.2em;
-  font-weight:normal;
-  padding:2px;
+#toplinks {
+padding:5px 2px 2px 3px;
+text-align:right;
 }
-
-#sidebar h2{
-    margin:3px 0px 9px 0px;
+#slogan {
+color:#808080;
+font-size:1.5em;
+font-weight:bold;
+letter-spacing:-1px;
+line-height:1.2em;
+margin:15px 0 20px 35px;
 }
-
-
-#content {
-    line-height:1.5em;
-    width:545px;
-    float:right;
-    text-align:left;
-    margin:0;
-    padding:0;
+#sidebar {
+float:left;
+margin:0 0 5px;
+padding:1px 0 0;
+width:180px;
 }
-
-#contentalt{
-    line-height:1.5em;
-    width:545px;
-    float:left;
-    text-align:left;
-    padding:0;
-    margin-right:20px;
+#sidebar ul {
+font-size:0.9em;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin-bottom:20px;
+margin-top:0;
+padding:4px 0 0 15px;
 }
-
-#content h3, #contentalt h3{margin:10px 0 8px;}
-
-
-#box_login{
-    text-align:center;
-    color:#808080;
-    font-size:0.9em;
-    background-color:#FFFFFF;
-    border:1px solid #c8c8c8;
-    line-height:1.3em;
-    margin:15;
-    padding:10px 0px 0px 0px;
+#sidebar li {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0 0 4px;
+padding:0;
 }
-
-#box_login label {
-    font: 10px tahoma, arial, sans-serif;
-    color:#5C5C5C;
-}
-
-input {
-    border: 1px solid #808080;
-}
-
-#box_login button {
-    border: 1px solid #808080;
-    padding:8px;
-}
-
-.flash{
-    margin: 0px 0px 10px 0px;
-    padding:5px;
-    border:2px solid #000000;
-    background-color:black;
-    color:white;
-    text-align:center;
-    font-weight: bold;
-}
-
-#tracert {
-    text-align:left;
-    font-size:1.4em;
-    color:#4088b8;
-    border-bottom:4px solid #dadada;
-    padding:5px 2px 2px 3px;
-    margin:0 0 20px 0;
-    letter-spacing:-1px;
-    font-weight:bold;
-}
-
-#tracert a {
-    text-align:left;
-    color:#808080;
-    margin:0 0 20px 0;
-    letter-spacing:-1px;
-    font-weight:bold;
-}
-
-#form {
-	background-color:  #dadada;
-}
-
-
-#form ul li {
-	font-size:1.2em;
-	list-style-type: none;
-}
-
-
-#form input[type=text]{
-	border: 1px solid #000000;
-	margin-bottom: 5px;
-}
-
-#show ul li {
-	font-size:1.2em;
-	list-style-type: none;
-	margin: 2px 0 0px 0px;
-}
-
-
-.table {
-    display: block;
-    clear: both;
-    padding: 0px;
-    padding-top: 5px;
-}
-
-.table ul {
-    display: block;
-    width: 95%;
-    height: 20px;
-    margin: 0px;
-    margin-bottom: 1px;
-    padding: 0px;
-    padding-left: 10px;
-    overflow: hidden;
-}
-
-.table ul li {
-    display: table-cell;
-    height: 20px;
-    padding: 0px;
-    list-style: none;
-}
-
-.table ul.expand {
-    overflow: visible;
-    height: auto;
-}
-
-/******** Footer ********/
-#footer{
-    clear:both;
-    text-align:right;
-    color:#808080;
-    font-size:0.9em;
-    border-top:4px solid #dadada;
-    margin:0 auto;
-    padding:8px 0;
-    line-height:1.6em;
-}
-
-#footer p{margin:0; padding:0;}
-#footer a{color:#808080;}
-
-/******** Various classes ********/
-.box{
-    color:#ffffff;
-    font-size:0.9em;
-    background-color:#4088b8;
-    border:1px solid #c8c8c8;
-    line-height:1.3em;
-    padding:5px 5px 5px 8px;
-}
-
-.box a{color:#f0f0f0;}
-.left{float:left; margin:0 15px 4px 0;}
-.right{float:right; margin:0 0 4px 15px;}
-.textright{text-align:right;}
-.readmore{text-align:right; margin:-10px 10px 12px 0;}
-
-.center{text-align:center;}
-.blue{color:#4088b8;}
-.big{font-size:1.3em;}
-.small{font-size:0.8em;}
-.bold{font-weight:bold;}
-
-.clear{clear:both;}
-.hide{display:none;}
-.fade{color:#c8c8c8;}
-.gray{color:#808080;}
-
-.photo{
-border:1px solid #bababa;
+#sidebar li a {
+font-size:1.2em;
+font-weight:normal;
 padding:2px;
-background-color:#ffffff;
+}
+#sidebar h2 {
+margin:3px 0 9px;
+}
+#content {
+float:right;
+line-height:1.5em;
+margin:0;
+padding:0;
+text-align:left;
+width:545px;
+}
+#contentalt {
+float:left;
+line-height:1.5em;
+margin-right:20px;
+padding:0;
+text-align:left;
+width:545px;
+}
+#content h3, #contentalt h3 {
+margin:10px 0 8px;
+}
+#box_login {
+background-color:#FFFFFF;
+border:1px solid #C8C8C8;
+color:#808080;
+font-size:0.9em;
+line-height:1.3em;
+margin:15px;
+padding:10px 0 0;
+text-align:center;
+}
+#box_login label {
+color:#5C5C5C;
+font-family:tahoma,arial,sans-serif;
+font-size:10px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:normal;
+}
+input {
+border:1px solid #808080;
+}
+#box_login button {
+border:1px solid #808080;
+padding:8px;
+}
+.flash {
+background-color:black;
+border:2px solid #000000;
+color:white;
+font-weight:bold;
+margin:0 0 10px;
+padding:5px;
+text-align:center;
+}
+#tracert {
+border-bottom:4px solid #DADADA;
+color:#4088B8;
+font-size:1.4em;
+font-weight:bold;
+letter-spacing:-1px;
+margin:0 0 20px;
+padding:5px 2px 2px 3px;
+text-align:left;
+}
+#tracert a {
+color:#808080;
+font-weight:bold;
+letter-spacing:-1px;
+margin:0 0 20px;
+text-align:left;
+}
+#form {
+background-color:#DADADA;
+}
+#form ul li {
+font-size:1.2em;
+list-style-type:none;
+}
+#form input[type="text"] {
+border:1px solid #000000;
+margin-bottom:5px;
+}
+#show ul li {
+font-size:1.2em;
+list-style-type:none;
+margin:2px 0 0;
+}
+.table {
+clear:both;
+display:block;
+padding:5px 0 0;
+}
+.table ul {
+display:block;
+height:20px;
+margin:0 0 1px;
+overflow:hidden;
+padding:0 0 0 10px;
+width:95%;
+}
+.table ul li {
+display:table-cell;
+height:20px;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+padding:0;
+}
+.table ul.expand {
+height:auto;
+overflow:visible;
+}
+#footer {
+border-top:4px solid #DADADA;
+clear:both;
+color:#808080;
+font-size:0.9em;
+line-height:1.6em;
+margin:0 auto;
+padding:8px 0;
+text-align:right;
+}
+#footer p {
+margin:0;
+padding:0;
+}
+#footer a {
+color:#808080;
+}
+.box {
+background-color:#4088B8;
+border:1px solid #C8C8C8;
+color:#FFFFFF;
+font-size:0.9em;
+line-height:1.3em;
+padding:5px 5px 5px 8px;
+}
+.box a {
+color:#F0F0F0;
+}
+.left {
+float:left;
+margin:0 15px 4px 0;
+}
+.right {
+float:right;
+margin:0 0 4px 15px;
+}
+.textright {
+text-align:right;
+}
+.readmore {
+margin:-10px 10px 12px 0;
+text-align:right;
+}
+.center {
+text-align:center;
+}
+.blue {
+color:#4088B8;
+}
+.big {
+font-size:1.3em;
+}
+.small {
+font-size:0.8em;
+}
+.bold {
+font-weight:bold;
+}
+.clear {
+clear:both;
+}
+.hide {
+display:none;
+}
+.fade {
+color:#C8C8C8;
+}
+.gray {
+color:#808080;
+}
+.photo {
+background-color:#FFFFFF;
+border:1px solid #BABABA;
 margin:6px 18px 2px 5px;
+padding:2px;
 }
 
