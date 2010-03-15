@@ -8,5 +8,6 @@ class VehicleDetailsController < ApplicationController
       @vehicle = Vehicle.find params[:id]
   end
 
+
 end
 
