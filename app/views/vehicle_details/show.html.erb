@@ -89,7 +89,7 @@
             </span>
 
             <span id="veiculo_detalhado_form">
-              <% form_tag({:controller=>"contacts", :action=>"send_email"}, :method => "post") do %>
+              <% form_tag({:controller=>"contacts", :action=>"create"}, :method => "post") do %>
                 <%= label_tag(:nome,     "Nome:"    ,:class => "form_label_nome") %>  <%= text_field_tag(:nome_txt    , nil ,:class => "form_txt_nome"  ,:size => 30) %><br><br>
                 <%= label_tag(:email,    "E-Mail:"  ,:class => "form_label_email") %>  <%= text_field_tag(:email_txt   , nil,:class => "form_txt_email" ,:size => 30) %><br><br>
                 <%= label_tag(:telefone, "Telefone:",:class => "form_label_tel") %>  <%= text_field_tag(:telefone_txt, nil,:class => "form_txt_tel"     ,:size => 30) %><br><br>
