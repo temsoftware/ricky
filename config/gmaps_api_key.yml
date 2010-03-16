@@ -4,12 +4,12 @@
 #In production, the app can be accessed through 2 different hosts: thepochisuperstarmegashow.com and exmaple.com. There then needs a 2-key hash. If you deployed to one host, only the API key would be needed (as in development and test).
 
 development:
- ABQIAAAAGPGLKv0sPiymjvr4cc4Z0RRgM-LIaOnxsyWIMHYr1nE9aQ2cuRQb0AnXEl2Jzl1Ce83dFfN4gTNFvg
+ ABQIAAAAdJbPMdw0CLqMxbpS2Q9kBBT4xu7i0yn9Yz3kZtQBJYZZXVGXohTAitcH3a6yEbtR3yj9SpCMSJCkuQ
 
 test:
- ABQIAAAAGPGLKv0sPiymjvr4cc4Z0RRgM-LIaOnxsyWIMHYr1nE9aQ2cuRQb0AnXEl2Jzl1Ce83dFfN4gTNFvg
+ ABQIAAAAdJbPMdw0CLqMxbpS2Q9kBBT4xu7i0yn9Yz3kZtQBJYZZXVGXohTAitcH3a6yEbtR3yj9SpCMSJCkuQ
 
 production:
- http://189.19.54.118:3030: ABQIAAAAdJbPMdw0CLqMxbpS2Q9kBBQWnT56kR-mQNxOCxKSjYxCyyWNHBRl7fdb5H2O9ythbm7uCPxbojh4UA
+ http://189.19.54.118: ABQIAAAAdJbPMdw0CLqMxbpS2Q9kBBT4xu7i0yn9Yz3kZtQBJYZZXVGXohTAitcH3a6yEbtR3yj9SpCMSJCkuQ
  example.com: ABQIAAAAGPGLKv0sPiymjvr4cc4Z0RRgM-LIaOnxsyWIMHYr1nE9aQ2cuRQb0AnXEl2Jzl1Ce83dFfN4gTNFvg
 
