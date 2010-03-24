@@ -41,19 +41,25 @@ width:800px;
 }
 #menu_top ul {
 list-style-type:none;
-padding-left:20px;
 padding-top:5px;
+_padding-top:0px;
+_padding-left:0px;
+_top:2px;
+_position:absolute;
 }
 #menu_top ul li {
 color:#FFFFFF;
 float:left;
 font-family:Verdana,Geneva,sans-serif;
-padding-right:30px;
 padding-top:2px;
+padding-right:30px;
+_padding-right:10px;
+_padding-left:10px;
 }
 #menu_top a {
 color:#FFFFFF;
 text-decoration:none;
+_display:block;
 }
 #menu_top a:visited {
 color:#FFFFFF;
@@ -67,19 +73,12 @@ background:#9E0404 none repeat scroll 0 0;
 border-color:#9E0404;
 border-style:solid;
 border-width:10px 0 5px;
+_border-width:0;
 color:#FFFFFF;
 text-decoration:none;
-}
-#menu_top a:active {
--moz-background-clip:border;
--moz-background-inline-policy:continuous;
--moz-background-origin:padding;
-background:#9E0404 none repeat scroll 0 0;
-border-color:#9E0404;
-border-style:solid;
-border-width:10px 0 5px;
-color:#FFFFFF;
-text-decoration:none;
+_display:block;
+_padding_top:5px;
+_padding-bottom:8px;
 }
 #busca {
 float:left;
@@ -397,12 +396,14 @@ width:60px;
 left:20px;
 position:absolute;
 top:230px;
+_top:220px;
 width:380px;
 }
 .form_info_check_news {
 left:0;
 position:absolute;
 top:230px;
+_top:220px;
 }
 .form_info_botao {
 background-color:#752D2E;
@@ -476,6 +477,7 @@ font-weight:bold;
 left:13px;
 position:absolute;
 top:-2px;
+_top:7px;
 }
 .text_short_description ul {
 list-style-type:none;
@@ -492,6 +494,7 @@ overflow:hidden;
 position:absolute;
 top:45px;
 width:818px;
+_top:60px;
 }
 .veiculos_fotos ul {
 list-style-type:none;
