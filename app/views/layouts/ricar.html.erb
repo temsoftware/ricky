@@ -14,7 +14,7 @@
   <%= javascript_include_tag 'facebox' %>
   <%= javascript_include_tag 'lightbox' %>
 
-  <%= GMap.header %>
+<%= GMap.header(:with_vml => false, :host => request.host) %>
 </head>
 <body>
     <div id="fundo_pag">

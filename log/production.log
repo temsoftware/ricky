@@ -1,0 +1,595 @@
+ActiveScaffold: extending RESTful routes for profiles
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for brands
+ActiveScaffold: extending RESTful routes for cars
+ActiveScaffold: extending RESTful routes for colors
+ActiveScaffold: extending RESTful routes for fuels
+ActiveScaffold: extending RESTful routes for gears
+ActiveScaffold: extending RESTful routes for type_vehicles
+ActiveScaffold: extending RESTful routes for options
+ActiveScaffold: extending RESTful routes for vehicles
+ActiveScaffold: extending RESTful routes for partners
+ActiveScaffold: extending RESTful routes for stores
+ActiveScaffold: extending RESTful routes for costumers
+
+
+Processing HomeController#index (for 119.82.99.147 at 2010-06-19 09:21:36) [GET]
+Rendering template within layouts/ricar
+Rendering home/index
+
+ActionView::TemplateError (http://189.19.54.118,example.com) on line #17 of app/views/layouts/ricar.html.erb:
+14:   <%= javascript_include_tag 'facebox' %>
+15:   <%= javascript_include_tag 'lightbox' %>
+16: 
+17:   <%= GMap.header %>
+18: </head>
+19: <body>
+20:     <div id="fundo_pag">
+
+    app/views/layouts/ricar.html.erb:17
+    passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+    passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/push2pul/domains/ricar.push2pull.com/ricky/public/500.html (500 Internal Server Error)
+
+
+Processing HomeController#index (for 119.82.99.147 at 2010-06-19 09:21:49) [GET]
+Rendering template within layouts/ricar
+Rendering home/index
+
+ActionView::TemplateError (http://189.19.54.118,example.com) on line #17 of app/views/layouts/ricar.html.erb:
+14:   <%= javascript_include_tag 'facebox' %>
+15:   <%= javascript_include_tag 'lightbox' %>
+16: 
+17:   <%= GMap.header %>
+18: </head>
+19: <body>
+20:     <div id="fundo_pag">
+
+    app/views/layouts/ricar.html.erb:17
+    passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+    passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/push2pul/domains/ricar.push2pull.com/ricky/public/500.html (500 Internal Server Error)
+ActiveScaffold: extending RESTful routes for profiles
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for brands
+ActiveScaffold: extending RESTful routes for cars
+ActiveScaffold: extending RESTful routes for colors
+ActiveScaffold: extending RESTful routes for fuels
+ActiveScaffold: extending RESTful routes for gears
+ActiveScaffold: extending RESTful routes for type_vehicles
+ActiveScaffold: extending RESTful routes for options
+ActiveScaffold: extending RESTful routes for vehicles
+ActiveScaffold: extending RESTful routes for partners
+ActiveScaffold: extending RESTful routes for stores
+ActiveScaffold: extending RESTful routes for costumers
+
+
+Processing HomeController#index (for 119.82.99.147 at 2010-06-19 09:25:21) [GET]
+Rendering template within layouts/ricar
+Rendering home/index
+
+ActionView::TemplateError (http://ricar.push2pull.com) on line #17 of app/views/layouts/ricar.html.erb:
+14:   <%= javascript_include_tag 'facebox' %>
+15:   <%= javascript_include_tag 'lightbox' %>
+16: 
+17:   <%= GMap.header %>
+18: </head>
+19: <body>
+20:     <div id="fundo_pag">
+
+    app/views/layouts/ricar.html.erb:17
+    passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+    passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/push2pul/domains/ricar.push2pull.com/ricky/public/500.html (500 Internal Server Error)
+
+
+Processing HomeController#index (for 119.82.99.147 at 2010-06-19 09:25:34) [GET]
+Rendering template within layouts/ricar
+Rendering home/index
+
+ActionView::TemplateError (http://ricar.push2pull.com) on line #17 of app/views/layouts/ricar.html.erb:
+14:   <%= javascript_include_tag 'facebox' %>
+15:   <%= javascript_include_tag 'lightbox' %>
+16: 
+17:   <%= GMap.header %>
+18: </head>
+19: <body>
+20:     <div id="fundo_pag">
+
+    app/views/layouts/ricar.html.erb:17
+    passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+    passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+    passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/push2pul/domains/ricar.push2pull.com/ricky/public/500.html (500 Internal Server Error)
+ActiveScaffold: extending RESTful routes for profiles
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for brands
+ActiveScaffold: extending RESTful routes for cars
+ActiveScaffold: extending RESTful routes for colors
+ActiveScaffold: extending RESTful routes for fuels
+ActiveScaffold: extending RESTful routes for gears
+ActiveScaffold: extending RESTful routes for type_vehicles
+ActiveScaffold: extending RESTful routes for options
+ActiveScaffold: extending RESTful routes for vehicles
+ActiveScaffold: extending RESTful routes for partners
+ActiveScaffold: extending RESTful routes for stores
+ActiveScaffold: extending RESTful routes for costumers
+
+
+Processing HomeController#index (for 119.82.99.147 at 2010-06-19 09:27:46) [GET]
+Rendering template within layouts/ricar
+Rendering home/index
+Completed in 34ms (View: 32, DB: 1) | 200 OK [http://ricar.push2pull.com/home]
+
+
+Processing ApplicationController#index (for 119.82.99.147 at 2010-06-19 09:34:48) [GET]
+
+ActionController::RoutingError (No route matches "/rails/info/properties" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/push2pul/domains/ricar.push2pull.com/ricky/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 119.82.99.147 at 2010-06-19 09:34:50) [GET]
+
+ActionController::RoutingError (No route matches "/rails/info/properties" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/push2pul/domains/ricar.push2pull.com/ricky/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 119.82.99.147 at 2010-06-19 09:34:54) [GET]
+Rendering template within layouts/ricar
+Rendering home/index
+Completed in 10ms (View: 9, DB: 1) | 200 OK [http://ricar.push2pull.com/home]
+
+
+Processing ApplicationController#index (for 119.82.99.147 at 2010-06-19 09:35:02) [GET]
+
+ActionController::RoutingError (No route matches "/datas/original/missing.png" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/push2pul/domains/ricar.push2pull.com/ricky/public/404.html (404 Not Found)
+ActiveScaffold: extending RESTful routes for profiles
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for brands
+ActiveScaffold: extending RESTful routes for cars
+ActiveScaffold: extending RESTful routes for colors
+ActiveScaffold: extending RESTful routes for fuels
+ActiveScaffold: extending RESTful routes for gears
+ActiveScaffold: extending RESTful routes for type_vehicles
+ActiveScaffold: extending RESTful routes for options
+ActiveScaffold: extending RESTful routes for vehicles
+ActiveScaffold: extending RESTful routes for partners
+ActiveScaffold: extending RESTful routes for stores
+ActiveScaffold: extending RESTful routes for costumers
+
+
+Processing HomeController#index (for 189.18.128.171 at 2010-06-20 07:40:19) [GET]
+Rendering template within layouts/ricar
+Rendering home/index
+Completed in 55ms (View: 54, DB: 1) | 200 OK [http://ricar.push2pull.com/home]
+
+
+Processing ApplicationController#index (for 189.18.128.171 at 2010-06-20 07:40:26) [GET]
+
+ActionController::RoutingError (No route matches "/datas/original/missing.png" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/push2pul/domains/ricar.push2pull.com/ricky/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 189.18.128.171 at 2010-06-20 07:49:21) [GET]
+Rendering template within layouts/ricar
+Rendering home/index
+Completed in 10ms (View: 8, DB: 1) | 200 OK [http://ricar.push2pull.com/home]
+
+
+Processing ApplicationController#index (for 189.18.128.171 at 2010-06-20 07:49:24) [GET]
+
+ActionController::RoutingError (No route matches "/datas/original/missing.png" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/push2pul/domains/ricar.push2pull.com/ricky/public/404.html (404 Not Found)
+
+
+Processing AddressController#show (for 189.18.128.171 at 2010-06-20 07:49:26) [GET]
+  Parameters: {"id"=>"1"}
+
+NoMethodError (private method `split' called for nil:NilClass):
+  app/controllers/address_controller.rb:15:in `show'
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/push2pul/domains/ricar.push2pull.com/ricky/public/500.html (500 Internal Server Error)
+
+
+Processing ApplicationController#index (for 189.18.128.171 at 2010-06-20 07:49:32) [GET]
+
+ActionController::RoutingError (No route matches "/datas/original/missing.png" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/push2pul/domains/ricar.push2pull.com/ricky/public/404.html (404 Not Found)
+
+
+Processing ContactsController#index (for 189.18.128.171 at 2010-06-20 07:49:33) [GET]
+Rendering template within layouts/ricar
+Rendering contacts/index
+Completed in 594ms (View: 593, DB: 0) | 200 OK [http://ricar.push2pull.com/contacts]
+
+
+Processing AddressController#show (for 189.18.128.171 at 2010-06-20 07:49:48) [GET]
+  Parameters: {"id"=>"1"}
+
+NoMethodError (private method `split' called for nil:NilClass):
+  app/controllers/address_controller.rb:15:in `show'
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/push2pul/domains/ricar.push2pull.com/ricky/public/500.html (500 Internal Server Error)
+
+
+Processing ApplicationController#index (for 189.18.128.171 at 2010-06-20 07:53:45) [GET]
+
+ActionController::RoutingError (No route matches "/session/new" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/push2pul/domains/ricar.push2pull.com/ricky/public/404.html (404 Not Found)
+
+
+Processing SessionsController#new (for 189.18.128.171 at 2010-06-20 07:53:57) [GET]
+Rendering template within layouts/login
+Rendering sessions/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://ricar.push2pull.com/sessions/new]
+
+
+Processing SessionsController#create (for 189.18.128.171 at 2010-06-20 07:54:07) [POST]
+  Parameters: {"authenticity_token"=>"TimkT4F/3sbUuDS7cKmOXZeqCXfN4mAGSxeTyRou6TA=", "user"=>{"pass"=>"tem1234", "login"=>"temsft"}}
+Rendering template within layouts/login
+Rendering sessions/new
+Completed in 51ms (View: 2, DB: 11) | 200 OK [http://ricar.push2pull.com/sessions]
+
+
+Processing SessionsController#create (for 189.18.128.171 at 2010-06-20 07:54:18) [POST]
+  Parameters: {"authenticity_token"=>"TimkT4F/3sbUuDS7cKmOXZeqCXfN4mAGSxeTyRou6TA=", "user"=>{"pass"=>"temsft", "login"=>"temsft"}}
+Redirected to http://ricar.push2pull.com/main
+Completed in 3ms (DB: 0) | 302 Found [http://ricar.push2pull.com/sessions]
+
+
+Processing MainController#index (for 189.18.128.171 at 2010-06-20 07:54:19) [GET]
+Rendering template within layouts/admin
+Rendering main/index
+Completed in 36ms (View: 36, DB: 0) | 200 OK [http://ricar.push2pull.com/main]
+
+
+Processing StoresController#index (for 189.18.128.171 at 2010-06-20 07:54:28) [GET]
+Rendering template within layouts/admin
+Rendering list
+Completed in 188ms (View: 160, DB: 0) | 200 OK [http://ricar.push2pull.com/stores]
+
+
+Processing PartnersController#index (for 189.18.128.171 at 2010-06-20 07:54:34) [GET]
+Rendering template within layouts/admin
+Rendering list
+Completed in 220ms (View: 217, DB: 0) | 200 OK [http://ricar.push2pull.com/partners]
+
+
+Processing PartnersController#edit (for 189.18.128.171 at 2010-06-20 07:54:41) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"1"}
+Completed in 20ms (View: 2, DB: 0) | 200 OK [http://ricar.push2pull.com/partners/1/edit?_method=get&adapter=_list_inline_adapter]
+
+
+Processing PartnersController#row (for 189.18.128.171 at 2010-06-20 07:54:46) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://ricar.push2pull.com/partners/1/row?_method=get]
+
+
+Processing ColorsController#index (for 189.18.128.171 at 2010-06-20 07:54:59) [GET]
+Rendering template within layouts/admin
+Rendering list
+Completed in 249ms (View: 230, DB: 16) | 200 OK [http://ricar.push2pull.com/colors]
+
+
+Processing StoresController#index (for 189.18.128.171 at 2010-06-20 07:55:43) [GET]
+Rendering template within layouts/admin
+Rendering list
+Completed in 58ms (View: 54, DB: 0) | 200 OK [http://ricar.push2pull.com/stores]
+
+
+Processing StoresController#index (for 189.18.128.171 at 2010-06-20 07:55:55) [GET]
+Rendering template within layouts/admin
+Rendering list
+Completed in 61ms (View: 57, DB: 0) | 200 OK [http://ricar.push2pull.com/stores]
+
+
+Processing StoresController#new (for 189.18.128.171 at 2010-06-20 07:56:23) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter"}
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://ricar.push2pull.com/stores/new?_method=get&adapter=_list_inline_adapter]
+
+
+Processing PartnersController#index (for 189.18.128.171 at 2010-06-20 07:57:28) [GET]
+Rendering template within layouts/admin
+Rendering list
+Completed in 171ms (View: 167, DB: 0) | 200 OK [http://ricar.push2pull.com/partners]
+
+
+Processing CostumersController#index (for 189.18.128.171 at 2010-06-20 07:57:32) [GET]
+Rendering template within layouts/admin
+Rendering list
+Completed in 78ms (View: 74, DB: 0) | 200 OK [http://ricar.push2pull.com/costumers]
+
+
+Processing StoresController#index (for 189.18.128.171 at 2010-06-20 07:57:50) [GET]
+Rendering template within layouts/admin
+Rendering list
+Completed in 57ms (View: 53, DB: 0) | 200 OK [http://ricar.push2pull.com/stores]
