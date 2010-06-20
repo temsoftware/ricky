@@ -1,4 +1,4 @@
-use spider
+
 
 /*pensei em colocar o id do user em todas as tabelas, assim vc sabe quem criou e um outro campo com o id de quem
 deu um update naquela tabela*/
