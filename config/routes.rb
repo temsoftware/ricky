@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.root :controller => "sessions", :action => "new"
+  map.root :controller => "home", :action => "index"
 
   map.resources :sessions
   map.resources :anuncios
@@ -22,8 +22,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :vehicle_details
   map.resources :contacts
   map.resources :address
-
-
+  
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
 end
